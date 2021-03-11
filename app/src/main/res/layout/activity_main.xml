@@ -28,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.773" />
+        app:layout_constraintVertical_bias="0.713" />
 
     <EditText
         android:id="@+id/matrEingabefeld"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:selectAllOnFocus="true"
         android:text="Hier eingeben"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,5 +55,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/matrEingabefeld" />
+
+    <Button
+        android:id="@+id/asciiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ASCII"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendServerButton"
+        app:layout_constraintVertical_bias="0.263" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
